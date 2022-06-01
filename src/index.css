@@ -1,0 +1,58 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.titulo {
+	font-family: "Montserrat", sans-serif;
+}
+
+.video-inicio {
+	background-color: #000;
+	color: #fff;
+	font-family: "Montserrat", sans-serif;
+	position: relative;
+}
+
+.video {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+.video-inicio h1 {
+	background-color: #000;
+	font-size: 240px;
+	text-align: center;
+	font-weight: 400px;
+	mix-blend-mode: multiply;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.video-inicio .edahi {
+	display: none;
+}
+
+@media (max-width: 912px) {
+	.video-inicio h1 {
+		display: none;
+	}
+
+	.video-inicio .edahi {
+		display: block;
+		background-color: #000;
+		font-size: 115px;
+		text-align: center;
+		font-weight: 400px;
+		mix-blend-mode: multiply;
+		height: 100vh;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+}
