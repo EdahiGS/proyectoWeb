@@ -8,7 +8,7 @@ const Card = () => {
 					<div className="max-w-sm rounded overflow-hidden shadow-lg text-center">
 						<img
 							className="w-full"
-							src="src/resources/agencia.png"
+							src="../resources/agencia.png"
 							alt="Sunset in the mountains"
 						/>
 						<div className="px-6 py-4">
@@ -31,7 +31,7 @@ const Card = () => {
 					<div className="max-w-sm rounded overflow-hidden shadow-lg text-center">
 						<img
 							className="w-full"
-							src="/src/resources/cafeteria1.png"
+							src="src/resources/cafeteria1.png"
 							alt="Sunset in the mountains"
 						/>
 						<div className="px-6 py-4">
@@ -57,7 +57,7 @@ const Card = () => {
 					<div className="max-w-sm rounded overflow-hidden shadow-lg text-center">
 						<img
 							className="w-full"
-							src="/src/resources/cultivos.png"
+							src="src/resources/cultivos.png"
 							alt="Sunset in the mountains"
 						/>
 						<div className="px-6 py-4">
