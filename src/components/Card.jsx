@@ -1,4 +1,6 @@
 import React from "react";
+import agencia from '../resources/agencia.png'
+import cafeteria1 from '../resources/cafeteria1.png'
 const Card = () => {
 	return (
 		<>
@@ -8,7 +10,7 @@ const Card = () => {
 					<div className="max-w-sm rounded overflow-hidden shadow-lg text-center">
 						<img
 							className="w-full"
-							src="../resources/agencia.png"
+							src={agencia}
 							alt="Sunset in the mountains"
 						/>
 						<div className="px-6 py-4">
@@ -31,7 +33,7 @@ const Card = () => {
 					<div className="max-w-sm rounded overflow-hidden shadow-lg text-center">
 						<img
 							className="w-full"
-							src="src/resources/cafeteria1.png"
+							src={cafeteria1}
 							alt="Sunset in the mountains"
 						/>
 						<div className="px-6 py-4">
@@ -84,7 +86,7 @@ const Card = () => {
 					<div className="max-w-sm rounded overflow-hidden shadow-lg text-center">
 						<img
 							className="w-full"
-							src="/src/resources/fitness.png"
+							src="src/resources/fitness.png"
 							alt="Sunset in the mountains"
 						/>
 						<div className="px-6 py-4">
@@ -132,7 +134,7 @@ const Card = () => {
 					<div className="max-w-sm rounded overflow-hidden shadow-lg text-center">
 						<img
 							className="w-full"
-							src="/src/resources/cafeteria2.png"
+							src="src/resources/cafeteria2.png"
 							alt="Sunset in the mountains"
 						/>
 						<div className="px-6 py-4">
