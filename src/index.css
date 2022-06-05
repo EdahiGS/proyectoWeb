@@ -55,4 +55,8 @@
 		justify-content: center;
 		align-items: center;
 	}
+
+	.about-meSize {
+		flex-wrap: wrap;
+	}
 }
