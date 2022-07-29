@@ -4,6 +4,7 @@ import cafeteria1 from '../resources/cafeteria1.png'
 import cafeteria2 from '../resources/cafeteria2.png'
 import cultivos from '../resources/cultivos.png'
 import fitness from '../resources/fitness.png'
+import ejercicio from '../resources/ejercicio.png'
 const Card = () => {
 	return (
 		<>
