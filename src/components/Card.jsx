@@ -112,21 +112,19 @@ const Card = () => {
 					<div className="max-w-sm rounded overflow-hidden shadow-lg text-center">
 						<img
 							className="w-full"
-							src="https://www.caracteristicas.co/wp-content/uploads/2018/11/montan%CC%83as-e1543190126108.jpg"
+							src={ejercicio}
 							alt="Sunset in the mountains"
 						/>
 						<div className="px-6 py-4">
-							<div className="font-bold text-xl mb-2">The Coldest Sunset</div>
+							<div className="font-bold text-xl mb-2">Ejercicios Básicos</div>
 							<p className="text-gray-700 text-base">
-								Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-								Voluptatibus quia, nulla! Maiores et perferendis eaque,
-								exercitationem praesentium nihil.
+								Ejercicios utilizando HTML, CSS y JS, con la finalidad de practicar.
 							</p>
 						</div>
 						<div className="px-6 pt-4 pb-5 text-center">
 							<a
 								className="bg-blue-500 hover:bg-blue-400 text-white font-bold py-2 px-4 border-b-4 border-blue-700 hover:border-blue-500 rounded"
-								href="/Enlace al Sitio"
+								href="https://ejercicios-js-mauve.vercel.app/"
 							>
 								Enlace al Sitio
 							</a>
