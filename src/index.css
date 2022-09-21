@@ -38,6 +38,16 @@
 	display: none;
 }
 
+.boton-contacto{
+	background-color: #4F46E5;
+	color: white;
+	padding: 20px;
+	border-radius: 10px;
+	box-shadow: 2px 2px 10px #4F46E5;
+}
+
+
+
 @media (max-width: 912px) {
 	.video-inicio h1 {
 		display: none;
@@ -59,4 +69,5 @@
 	.about-meSize {
 		flex-wrap: wrap;
 	}
+
 }
